@@ -13,7 +13,7 @@ int letterPin[4][2] = {{3}, {6}, {9, 10}, {11}};
 int dotPin = 10;
 int modePin = 5;
 int brightnessPin = 12;
-
+int ledPin = 13;
 
 int mode = 0;
 int brightness = 20;
@@ -38,6 +38,9 @@ void setup() {
   digitalWrite(modePin, HIGH); //Use internal pull-up resistor
   pinMode(brightnessPin, INPUT); //Set to an input to read switch status
   digitalWrite(brightnessPin, HIGH); //Use internal pull-up resistor
+  
+  pinMode(ledPin, OUTPUT); //Set to an output to use internal LED
+  digitalWrite(ledPin, HIGH); //Turn it on
 }
 
 void loop() {
@@ -46,6 +49,7 @@ void loop() {
   modeTime = doMode(mode);
   
   if (debug && millis() - lastDebugOutput > debugInterval) debugWrite();
+  digitalWrite(ledPin, !digitalRead(ledPin));
 }
 
 void debugWrite() {

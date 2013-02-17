@@ -7,7 +7,7 @@ boolean handleInput() {
     if (mode > MODE_OFF) mode = 0;
     
     //Wait for release
-    while(digitalRead(modePin) == LOW) { allOn(); }
+    while(digitalRead(modePin) == LOW) { allOff(); }
     
     delay(100);
     buttonPressed = true;
