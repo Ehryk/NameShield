@@ -5,18 +5,17 @@ http://www.github.com/Ehryk
 */
 
 //Configure Letters
-/* Eric */
-int letters = 4;
-char* letter[4] = {"E", "r", "i", "c"};
-int pinCount[4] = {1, 1, 2, 1};
-int letterPin[4][2] = {{3}, {6}, {9, 10}, {11}};
-int dotPin = 10;
-int modePin = 5;
-int brightnessPin = 12;
-int ledPin = 13;
+/* RDI */
+int letters = 3;
+char* letter[3] = {"R", "D", "I"};
+int pinCount[3] = {1, 1, 1};
+int letterPin[3][1] = {{11}, {10}, {9}};
+int modePin = 13;
+int brightnessPin = 14;
+int ledPin = 12;
 
 int mode = 0;
-int brightness = 20;
+int brightness = 100;
 unsigned long modeTime;
 
 boolean debug = true;
@@ -36,15 +35,16 @@ void setup() {
   
   pinMode(modePin, INPUT); //Set to an input to read switch status
   digitalWrite(modePin, HIGH); //Use internal pull-up resistor
-  pinMode(brightnessPin, INPUT); //Set to an input to read switch status
-  digitalWrite(brightnessPin, HIGH); //Use internal pull-up resistor
+  //pinMode(brightnessPin, INPUT); //Set to an input to read switch status
+  //digitalWrite(brightnessPin, HIGH); //Use internal pull-up resistor
   
-  pinMode(ledPin, OUTPUT); //Set to an output to use internal LED
-  digitalWrite(ledPin, HIGH); //Turn it on
+  //pinMode(ledPin, OUTPUT); //Set to an output to use internal LED
+  //digitalWrite(ledPin, HIGH); //Turn it on
 }
 
 void loop() {
   handleInput();
+  brightness = getBrightness(brightnessPin);
   
   modeTime = doMode(mode);
   

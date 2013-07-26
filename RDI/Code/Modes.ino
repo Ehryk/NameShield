@@ -6,16 +6,14 @@
 #define MODE_SEQUENTIAL_FAST 4
 #define MODE_WAVE 5
 #define MODE_WAVE_FAST 6
-#define MODE_BLINK_DOT 7
-#define MODE_BLINK_0 8
-#define MODE_BLINK_1 9
-#define MODE_BLINK_2 10
-#define MODE_BLINK_3 11
-#define MODE_FADE_ALL 12
-#define MODE_FADE_ALL_FAST 13
-#define MODE_FADE_ALL_SLOW 14
-#define MODE_BRIGHT 15
-#define MODE_OFF 16
+#define MODE_BLINK_R 7
+#define MODE_BLINK_D 8
+#define MODE_BLINK_I 9
+#define MODE_FADE_ALL 10
+#define MODE_FADE_ALL_FAST 11
+#define MODE_FADE_ALL_SLOW 12
+#define MODE_BRIGHT 13
+#define MODE_OFF 14
 
 //Returns how long the mode took in milliseconds
 unsigned long doMode(int m) {
@@ -28,11 +26,9 @@ unsigned long doMode(int m) {
     case MODE_SEQUENTIAL_FAST: modeSequential(100); break;
     case MODE_WAVE: modeWave(1000); break;
     case MODE_WAVE_FAST: modeWave(100); break;
-    case MODE_BLINK_DOT: modeBlinkPin(dotPin, 1000); break;
-    case MODE_BLINK_0: modeBlinkLetter(0, 1000); break;
-    case MODE_BLINK_1: modeBlinkLetter(1, 1000); break;
-    case MODE_BLINK_2: modeBlinkLetter(2, 1000); break;
-    case MODE_BLINK_3: modeBlinkLetter(3, 1000); break;
+    case MODE_BLINK_R: modeBlinkLetter(0, 1000); break;
+    case MODE_BLINK_D: modeBlinkLetter(1, 1000); break;
+    case MODE_BLINK_I: modeBlinkLetter(2, 1000); break;
     case MODE_FADE_ALL: modeFade(1000, 100); break;
     case MODE_FADE_ALL_FAST: modeFade(200, 50); break;
     case MODE_FADE_ALL_SLOW: modeFade(10000, 100); break;
