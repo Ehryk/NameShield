@@ -12,6 +12,7 @@ int pinCount[3] = {1, 1, 1};
 int letterPin[3][1] = {{11}, {10}, {9}};
 int modePin = 13;
 int brightnessPin = 14;
+int micPin = 15;
 int ledPin = 12;
 
 int mode = 0;
