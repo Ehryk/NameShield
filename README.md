@@ -6,9 +6,9 @@ This is an Arduino based project that flashes text or a name on a shield, with v
 ![Eric LEDs On](https://raw2.github.com/Ehryk/NameShield/master/Documentation/Pictures/6%20-%20Eric%20LEDs%20On.jpg)
 
 See the assembled ones on YouTube in various modes:
- - [Eric](https://www.youtube.com/watch?v=vqsRCEPevEo)
- - [Bill](https://www.youtube.com/watch?v=BqNwpaYB2X8)
- - [Matt](https://www.youtube.com/watch?v=KLYUQCO8-6A)
+ - Eric [View on YouTube](https://www.youtube.com/watch?v=vqsRCEPevEo)
+ - Bill [View on YouTube](https://www.youtube.com/watch?v=BqNwpaYB2X8)
+ - Matt [View on YouTube](https://www.youtube.com/watch?v=KLYUQCO8-6A)
 
 **Code**
 
