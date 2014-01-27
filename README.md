@@ -15,6 +15,7 @@ See the assembled ones on YouTube in various modes:
 These are the code files that drive the Name shields with LEDs.
 
 Current Modes (you can easily write your own, be sure to customize them in the Modes.ino file):
+
 1. All On
 1. Blink All (at once)
 1. Blink All (at once) - Fast
