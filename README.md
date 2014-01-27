@@ -25,5 +25,5 @@ Currently, I have built `Eric`, `Matt`, `Bill`, and `RDI`. If you'd like me to m
 Here are some of the other variants:
 
 ![Bill LEDs On](https://raw2.github.com/Ehryk/NameShield/master/Documentation/Pictures/7%20-%20Bill%20LEDs%20On.jpg)
-![Matt LEDs On](https://raw2.github.com/Ehryk/NameShield/master/Documentation/Pictures/8%20-%Matt%20LEDs%20On.jpg)
+![Matt LEDs On](https://raw2.github.com/Ehryk/NameShield/master/Documentation/Pictures/8%20-%20Matt%20LEDs%20On.jpg)
 ![RDI LEDs On](https://raw2.github.com/Ehryk/NameShield/master/Documentation/Pictures/RDI%206%20-%20Angled.jpg)
