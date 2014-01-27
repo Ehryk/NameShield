@@ -16,23 +16,23 @@ These are the code files that drive the Name shields with LEDs.
 
 Current Modes (you can easily write your own, be sure to customize them in the Modes.ino file):
 
-1. All On
-1. Blink All (at once)
-1. Blink All (at once) - Fast
-1. Sequential
-1. Sequential - Fast
-1. Wave
-1. Wave - Fast
-1. Blink Dot of i (if applicable)
-1. Blink First Letter
-1. Blink Second Letter
-1. Blink Third Letter
-1. Blink Fourth Letter (if applicable)
-1. Fade All
-1. Fade All - Fast
-1. Fade All - Slow
-1. All Bright
-1. All Off
+ 1. All On
+ 1. Blink All (at once)
+ 1. Blink All (at once) - Fast
+ 1. Sequential
+ 1. Sequential - Fast
+ 1. Wave
+ 1. Wave - Fast
+ 1. Blink Dot of i (if applicable)
+ 1. Blink First Letter
+ 1. Blink Second Letter
+ 1. Blink Third Letter
+ 1. Blink Fourth Letter (if applicable)
+ 1. Fade All
+ 1. Fade All - Fast
+ 1. Fade All - Slow
+ 1. All Bright
+ 1. All Off
 
 **Schematics**
 
